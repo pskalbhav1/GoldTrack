@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .alignx
+        {
+          position: center;
+          padding-left: 45%;
+        }
+        .align
+        {
+          position: center;
+          padding-left: 35%;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        body {
+          background-image: url('main.jpeg');
+        }
+    </style>
+     <header>
+        <div class="container-fluid">
+            <div class="nav-btn navbar navbar-expand-lg navbar-light bg-white">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="nav-links">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-link" style="--i: .6s">
+                                <a style="font-size:150%;line-height: 1.05;text-align:center;
+                                            font-weight:600; padding-left:1%;padding-right:0%;overflow-y: hidden;"
+                                    href="index1.html">GoldTrack</a>
+                           
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="image_rec.html">Check Products</a>
+                            </li>
+							<li class="nav-link" style="--i: .6s">
+                                <a href="find_loc.html">Find Product</a>
+                            </li>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="https://teachablemachine.withgoogle.com/train/image/1R2tb3BU5q9VYq7_gqhOfrgdG7CTMWr5l">Add Product</a>
+                            </li>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="vir_shop.html">Virtual Shop</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<br/><br/>
+<div class="alignx">
+<button type="button" onclick="init()">Check</button>
+</div>
+<br/><br/>
+<div class="align">
+<div id="webcam-container"></div>
+</div>
+<br/><br/>
+<div class="align">
+<div id="label-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+<script type="text/javascript"></script>
+<script src="sketch.js"></script>
+</div>
